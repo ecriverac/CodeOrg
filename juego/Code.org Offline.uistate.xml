@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout>Curso1Etapa1</layout>
+        <event-sheet>Event sheet Curso1Etapa1</event-sheet>
+        <event-sheet active="1">Event sheet Base</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/base/" />
+        <folder expanded="0" path="object-folder/base/popup/" />
+        <folder expanded="0" path="object-folder/home/" />
+        <folder expanded="1" path="object-folder/cursoselementales/" />
+        <folder expanded="1" path="object-folder/cursoselementales/curso1home/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="layout-folder/Curso1/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/popup_fondo/" />
+        <folder expanded="1" path="animation-folder/cerrar_popup/" />
+        <folder expanded="1" path="animation-folder/base_logo/" />
+        <folder expanded="1" path="animation-folder/base_incavalley/" />
+        <folder expanded="1" path="animation-folder/botonGeneral/" />
+        <folder expanded="1" path="animation-folder/origen/" />
+        <folder expanded="1" path="animation-folder/home/" />
+        <folder expanded="1" path="animation-folder/home2/" />
+        <folder expanded="1" path="animation-folder/btn_up/" />
+        <folder expanded="1" path="animation-folder/btn_izquierda/" />
+        <folder expanded="1" path="animation-folder/btn_derecha/" />
+        <folder expanded="1" path="animation-folder/btn_down/" />
+        <folder expanded="1" path="animation-folder/happy_maps_1q/" />
+        <folder expanded="1" path="animation-folder/final_Angry_Bird_red/" />
+        <folder expanded="1" path="animation-folder/final_pigg/" />
+        <folder expanded="1" path="animation-folder/cursoselementaklesHome/" />
+        <folder expanded="1" path="animation-folder/etapa/" />
+    </folders-expanded>
+</c2uistate>

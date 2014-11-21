@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet Curso1Etapa1</name>
+    <events>
+        <include>Event sheet Base</include>
+        <event-block sid="4680653664929356">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1463091235186295" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3993700216400751" type="System">
+                    <param id="0" name="Variable">vgTitulo</param>
+                    <param id="1" name="Value">&quot;MAPAS FELICES&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

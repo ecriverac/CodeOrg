@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet Home</name>
+    <events>
+        <variable constant="0" name="vgTitulo" sid="8465240354913112" static="0" type="text"></variable>
+        <include>Event sheet Base</include>
+        <event-block sid="7900317912559064">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1265241892575705" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="5833510764153499" type="System">
+                    <param id="0" name="Variable">vgTitulo</param>
+                    <param id="1" name="Value">&quot;CODE .ORG OFFLINE&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4080179617872135">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1921834999640413" type="Touch">
+                    <param id="0" name="Object">botonGeneral</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Is visible" sid="2893135021826607" type="popup_velo" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2013518226331598">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="2001486736319521" type="botonGeneral">
+                            <param id="0" name="Instance variable">referencia</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="515368075653557" type="System">
+                            <param id="0" name="Layout">CursosElementalesHome</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2256244269005629">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="1963184431589416" type="botonGeneral">
+                            <param id="0" name="Instance variable">referencia</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="1556201524513745" type="popup_text">
+                            <param id="0" name="Text">&quot;PROXIMAMENTE....&quot;</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="9735094887758257" type="System">
+                            <param id="0" name="Group name">&quot;PopupShow&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3643938905663547">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4772189825942768" type="botonGeneral">
+                            <param id="0" name="Instance variable">referencia</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8627205878825536" type="popup_text">
+                            <param id="0" name="Text">&quot;PROXIMAMENTE....&quot;</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="6690807862429822" type="System">
+                            <param id="0" name="Group name">&quot;PopupShow&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

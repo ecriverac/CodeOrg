@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet Base</name>
+    <events>
+        <event-block sid="3150212526609086">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1699829755990308" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Spawn another object" sid="3845348628067313" type="origen">
+                    <param id="0" name="Object">base_fondo</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="8234499832884424" type="origen">
+                    <param id="0" name="Object">base_logo</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="3821002461021109" type="origen">
+                    <param id="0" name="Object">base_incavalley</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="512950732090113" type="origen">
+                    <param id="0" name="Object">base_titulo</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="7614362405709414" type="origen">
+                    <param id="0" name="Object">popup_velo</param>
+                    <param id="1" name="Layer">&quot;Popup&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="3505837957277476" type="origen">
+                    <param id="0" name="Object">popup_fondo</param>
+                    <param id="1" name="Layer">&quot;Popup&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="186772836661866" type="origen">
+                    <param id="0" name="Object">popup_text</param>
+                    <param id="1" name="Layer">&quot;Popup&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="2414428530214555" type="origen">
+                    <param id="0" name="Object">cerrar_popup</param>
+                    <param id="1" name="Layer">&quot;Popup&quot;</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="132604386823228" type="origen" />
+                <action id="-3" name="Set position" sid="3731524607289581" type="base_titulo">
+                    <param id="0" name="X">512</param>
+                    <param id="1" name="Y">32</param>
+                </action>
+                <action id="-5" name="Set width" sid="5176153530919869" type="base_fondo">
+                    <param id="0" name="Width">1024</param>
+                </action>
+                <action id="-3" name="Set position" sid="6416013269507308" type="base_logo">
+                    <param id="0" name="X">12</param>
+                    <param id="1" name="Y">12</param>
+                </action>
+                <action id="-3" name="Set position" sid="1340847022048695" type="base_incavalley">
+                    <param id="0" name="X">873</param>
+                    <param id="1" name="Y">3.5</param>
+                </action>
+                <action id="-3" name="Set position" sid="4576827144030714" type="popup_fondo">
+                    <param id="0" name="X">208</param>
+                    <param id="1" name="Y">240</param>
+                </action>
+                <action id="-3" name="Set position" sid="843506613060001" type="popup_text">
+                    <param id="0" name="X">395</param>
+                    <param id="1" name="Y">260</param>
+                </action>
+                <action id="-3" name="Set position" sid="824980356387558" type="cerrar_popup">
+                    <param id="0" name="X">764</param>
+                    <param id="1" name="Y">263</param>
+                </action>
+                <action id="-15" name="Set visible" sid="640065302742105" type="popup_velo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7485476515513864" type="popup_fondo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5191890776877374" type="popup_text">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1260783312358971" type="cerrar_popup">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="9951031018841734" type="System">
+                    <param id="0" name="Seconds">0.5</param>
+                </action>
+                <action id="0" name="Set text" sid="2685411590208923" type="base_titulo">
+                    <param id="0" name="Text">vgTitulo</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="7693705515518509" type="base_titulo" />
+            </actions>
+        </event-block>
+        <event-group description="" inactive="1" sid="1551377065820411" title="PopupShow">
+            <sub-events>
+                <event-block sid="8922831507371899">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="7045592336765287" type="popup_velo">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8759645263982393" type="popup_fondo">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7950676652570774" type="popup_text">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="106348173182601" type="cerrar_popup">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="14" name="Log" sid="6012262645707499" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="9773551879932524" type="System">
+                            <param id="0" name="Group name">&quot;PopupShow&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="6929682233433186" title="PopupHide">
+            <sub-events>
+                <event-block sid="2339212986811417">
+                    <conditions />
+                    <actions>
+                        <action id="-15" name="Set visible" sid="418651247319842" type="popup_velo">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2208574459616714" type="popup_fondo">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8191008892067921" type="popup_text">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7629061932725683" type="cerrar_popup">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="8276771672639315" type="System">
+                            <param id="0" name="Group name">&quot;PopupHide&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="2068361861118037">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3660621461378684" type="Touch">
+                    <param id="0" name="Object">cerrar_popup</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="7836692361416176" type="System">
+                    <param id="0" name="Group name">&quot;PopupHide&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3877869245282603">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8935087501166916" type="Touch">
+                    <param id="0" name="Object">base_logo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8025129336954501" type="System">
+                    <param id="0" name="Layout">Home</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4990604137749473">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4547445687434505" type="Mouse">
+                    <param id="0" name="Object">btn_derecha</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-7" name="Set size" sid="4101748374376921" type="btn_derecha">
+                    <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                    <param id="1" name="Height">Self.Height</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

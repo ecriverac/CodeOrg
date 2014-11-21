@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Code.org Offline</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author>Elvis Rivera</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.incavalley.codeorg</app-id>
+    <unique-id>2r8ucl1ppru5b</unique-id>
+    <saved-with-version>18400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1024</width>
+        <height>768</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Home</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar only</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="base">
+            <object-folder name="popup">
+                <object-type name="popup_velo" sid="5925803910278929">
+                    <plugin id="TiledBg" />
+                    <behaviors>
+                        <behavior-type name="Fade" sid="2938501018364144">
+                            <behavior id="Fade" />
+                        </behavior-type>
+                    </behaviors>
+                    <texture />
+                </object-type>
+                <object-type name="popup_text" sid="687877677345018">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="popup_fondo" sid="1278378968547725">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6545281134671768" speed="5">
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\base\popup_fondo.png">
+                                <collision-poly>
+                                    <point x="0.0444079" y="0.09375" />
+                                    <point x="0.5" y="0.0243056" />
+                                    <point x="0.955592" y="0.09375" />
+                                    <point x="0.988487" y="0.5" />
+                                    <point x="0.953947" y="0.902778" />
+                                    <point x="0.5" y="0.96875" />
+                                    <point x="0.0460526" y="0.902778" />
+                                    <point x="0.0115132" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="cerrar_popup" sid="3317333747770577">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8346385279793005" speed="5">
+                            <frame duration="1" hotspotX="0.507692" hotspotY="0.507692" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\base\cerrar_popup.png">
+                                <collision-poly>
+                                    <point x="0.153846" y="0.153846" />
+                                    <point x="0.492308" y="0.0153846" />
+                                    <point x="0.846154" y="0.153846" />
+                                    <point x="0.984615" y="0.492308" />
+                                    <point x="0.846154" y="0.846154" />
+                                    <point x="0.492308" y="0.984615" />
+                                    <point x="0.153846" y="0.846154" />
+                                    <point x="0.0153846" y="0.492308" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="base_fondo" sid="5394160486200555">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="base_logo" sid="7543350173902059">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1033181592128535" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\imagenes\logo_code_org.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="base_titulo" sid="5800593048661286">
+                <plugin id="Text" />
+                <behaviors>
+                    <behavior-type name="Fade" sid="8436415081514273">
+                        <behavior id="Fade" />
+                    </behavior-type>
+                </behaviors>
+            </object-type>
+            <object-type name="base_incavalley" sid="874644281400464">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6151555321395962" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\base\incavalley.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="botonGeneral" sid="1055374784496134">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="referencia" sid="8085048610389185" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8582594448300802" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="origen" sid="3598717948372779">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="698401658370606" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="home">
+            <object-type name="home" sid="3196669028184998">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8434053425461221" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500935" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\home\home.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="cursoselementales">
+            <object-folder name="curso1home">
+                <object-type name="home2" sid="1217441346010165">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6886492763872105" speed="5">
+                            <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\home.jpg" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="btn_up" sid="822052231199957">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8205189251612052" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\up.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="btn_izquierda" sid="3030137332883474">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9410359102361287" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\left.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="btn_derecha" sid="3630146530764097">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9289190236606439" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\right.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="btn_down" sid="513594316668956">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3731345791669232" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\down.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="happy_maps_1q" sid="1504732052374989">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6081172886623976" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\happy_maps_1q.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="final_Angry_Bird_red" sid="427780689878134">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9515242446202644" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.505263" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\final_Angry_Bird_red.png">
+                                <collision-poly>
+                                    <point x="0.285714" y="0.294737" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.785714" y="0.221053" />
+                                    <point x="0.989796" y="0.494737" />
+                                    <point x="0.897959" y="0.894737" />
+                                    <point x="0.5" y="0.989474" />
+                                    <point x="0.183673" y="0.810526" />
+                                    <point x="0.0204082" y="0.494737" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="final_pigg" sid="5207899813910979">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6438067857869895" speed="5">
+                            <frame duration="1" hotspotX="0.50505" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1\final_pigg.png">
+                                <collision-poly>
+                                    <point x="0.131313" y="0.132653" />
+                                    <point x="0.494949" y="0.0408163" />
+                                    <point x="0.777778" y="0.22449" />
+                                    <point x="0.979798" y="0.5" />
+                                    <point x="0.868687" y="0.867347" />
+                                    <point x="0.494949" y="0.989796" />
+                                    <point x="0.131313" y="0.867347" />
+                                    <point x="0.020202" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-type name="cursoselementaklesHome" sid="3652431465161381">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8461968844269536" speed="5">
+                        <frame duration="1" hotspotX="0.500707" hotspotY="0.50152" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\cursoselementaleshome\cursoselementakles home.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TiledBackground" sid="3619227933081648">
+                <plugin id="TiledBg" />
+                <texture original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\fonfoEEEEEE.png" />
+            </object-type>
+        </object-folder>
+        <object-type name="Touch" sid="743308050932286">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Browser" sid="9170850819554569">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="9patch" sid="6514641774692489">
+            <plugin id="NinePatch" />
+            <texture original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\base\popup_fondo.png" />
+        </object-type>
+        <object-type name="Function" sid="9323897507903982">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="etapa" sid="679973287769071">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1918293089524736" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501845" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\curso1\etapa1.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="9463716844869314">
+            <plugin id="Mouse" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout-folder name="Curso1">
+            <layout>Curso1.xml</layout>
+            <layout>Curso1Etapa1.xml</layout>
+        </layout-folder>
+        <layout>Base.xml</layout>
+        <layout>Home.xml</layout>
+        <layout>CursosElementalesHome.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet Base.xml</event-sheet>
+        <event-sheet>Event sheet Home.xml</event-sheet>
+        <event-sheet>Event sheet CursosElementalesHome .xml</event-sheet>
+        <event-sheet>Event sheet Curso1.xml</event-sheet>
+        <event-sheet>Event sheet Curso1Etapa1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="12">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Browser" uid="14" />
+        <global-instance type="Function" uid="22" />
+        <global-instance type="Mouse" uid="34" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
