@@ -176,18 +176,187 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="4990604137749473">
-            <conditions>
-                <condition id="7" name="Cursor is over object" sid="4547445687434505" type="Mouse">
-                    <param id="0" name="Object">btn_derecha</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-7" name="Set size" sid="4101748374376921" type="btn_derecha">
-                    <param id="0" name="Width">self.Width*dt+Self.Width</param>
-                    <param id="1" name="Height">Self.Height</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="7738385572433484" title="FlechaCurso1">
+            <sub-events>
+                <event-block sid="4990604137749473">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="4547445687434505" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="7005822504064636" type="btn_derecha">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">250</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="4101748374376921" type="btn_derecha">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8658940269600494">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="3711891770702361" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="7603595321184629" type="btn_derecha">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">202</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="9051249438841109" type="btn_derecha">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2721569215289257">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="8448853982936628" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="1765052379614204" type="btn_up">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">190</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="6195626469564263" type="btn_up">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3379848438502966">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="1872887899681438" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="6494718095465473" type="btn_up">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="7510504456413902" type="btn_up">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4652239666818721">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="801133226537817" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="9307824641403311" type="btn_izquierda">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">250</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="549030694802624" type="btn_izquierda">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8031961734884646">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="9753760232316683" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="9757397494782865" type="btn_izquierda">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">202</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="9025804930998848" type="btn_izquierda">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5848478100798574">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="1631274688585062" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="1944637722454202" type="btn_down">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">190</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="2165323893663781" type="btn_down">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5801947521381475">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="2725302775255797" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="365875468646269" type="btn_down">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="1793069635029393" type="btn_down">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="6948960799947103">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="8762214353010681" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="3019463241131472" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="7069977965682664" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="3770710902394341" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="3597712027468937" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2047411159719258">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="4124827097799158" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="2908120713775055" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="8177352386505933" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="1070651307222674" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="7777694172501609" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
