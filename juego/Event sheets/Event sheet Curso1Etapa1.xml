@@ -4,6 +4,7 @@
     <name>Event sheet Curso1Etapa1</name>
     <events>
         <include>Event sheet Base</include>
+        <include>Event sheet Flechas Curso 1</include>
         <event-block sid="4680653664929356">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="1463091235186295" type="System" />
@@ -14,6 +15,40 @@
                     <param id="1" name="Value">&quot;MAPAS FELICES&quot;</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="2076942659484044">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3339092456436437" type="Touch">
+                    <param id="0" name="Object">btn_up</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="3126198295824714" type="System">
+                    <param id="0" name="Seconds">0.85</param>
+                </action>
+                <action id="4" name="Set animation" sid="3914791027918185" type="pig">
+                    <param id="0" name="Animation">&quot;Fin&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="9491264379484216" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-9" name="Destroy" sid="3854348345190395" type="pig" />
+            </actions>
+        </event-block>
+        <event-block any="1" sid="2247566297521716">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1975670891903917" type="Touch">
+                    <param id="0" name="Object">btn_derecha</param>
+                </condition>
+                <condition id="3" name="On touched object" sid="1616400390761371" type="Touch">
+                    <param id="0" name="Object">btn_izquierda</param>
+                </condition>
+                <condition id="3" name="On touched object" sid="62495847452029" type="Touch">
+                    <param id="0" name="Object">btn_down</param>
+                </condition>
+            </conditions>
+            <actions />
         </event-block>
     </events>
 </c2eventsheet>

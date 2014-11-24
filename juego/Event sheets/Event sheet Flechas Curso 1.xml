@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet Flechas Curso 1</name>
+    <events>
+        <variable constant="0" name="lastpostition" sid="6849129381076962" static="0" type="number">0</variable>
+        <variable constant="0" name="estadoBird" sid="4845304033730221" static="0" type="text">false</variable>
+        <event-group description="" sid="7722375800625312" title="FlechaCurso1Animacion">
+            <sub-events>
+                <event-block sid="4990604137749473">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="4547445687434505" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="7005822504064636" type="btn_derecha">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">250</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="4101748374376921" type="btn_derecha">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8658940269600494">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="3711891770702361" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="7603595321184629" type="btn_derecha">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">202</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="9051249438841109" type="btn_derecha">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2721569215289257">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="8448853982936628" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="1765052379614204" type="btn_up">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">190</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="6195626469564263" type="btn_up">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3379848438502966">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="1872887899681438" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="6494718095465473" type="btn_up">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="7510504456413902" type="btn_up">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4652239666818721">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="801133226537817" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="9307824641403311" type="btn_izquierda">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">250</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="549030694802624" type="btn_izquierda">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8031961734884646">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="9753760232316683" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="9757397494782865" type="btn_izquierda">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">202</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="9025804930998848" type="btn_izquierda">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5848478100798574">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="1631274688585062" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="1944637722454202" type="btn_down">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">190</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="2165323893663781" type="btn_down">
+                            <param id="0" name="Width">self.Width*dt+Self.Width</param>
+                            <param id="1" name="Height">self.Height*dt+self.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5801947521381475">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="2725302775255797" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="365875468646269" type="btn_down">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="1793069635029393" type="btn_down">
+                            <param id="0" name="Width">Self.Width-self.Width*dt</param>
+                            <param id="1" name="Height">self.Height-self.Height*dt</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block any="1" sid="6948960799947103">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="8762214353010681" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="3019463241131472" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="7069977965682664" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="3770710902394341" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="3597712027468937" type="Mouse">
+                            <param id="0" name="Cursor style">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2047411159719258">
+                    <conditions>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="4124827097799158" type="Mouse">
+                            <param id="0" name="Object">btn_derecha</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="2908120713775055" type="Mouse">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="8177352386505933" type="Mouse">
+                            <param id="0" name="Object">btn_izquierda</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="1070651307222674" type="Mouse">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set cursor style" sid="7777694172501609" type="Mouse">
+                            <param id="0" name="Cursor style">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5577590457427034" title="FlechaCurso1Down">
+            <sub-events>
+                <event-block sid="574107496779301">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="7681890299819979" type="Touch">
+                            <param id="0" name="Object">btn_down</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4350377307909269" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;false&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1387954798057709" type="bird_red">
+                            <param id="0" name="Animation">&quot;RunDown&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4348808735721635" type="System">
+                            <param id="0" name="Variable">lastpostition</param>
+                            <param id="1" name="Value">bird_red.Y</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="680462311068928" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;trueDown&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7907746170559584">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3948852534409485" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueDown&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="8081310007999466" type="bird_red">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Y co-ordinate">lastpostition+145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="2214353248621564" type="bird_red">
+                            <param id="0" name="Y">Self.Y+4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8304455899422448">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8464074106067767" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueDown&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="9746325198235965" type="bird_red">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">lastpostition+145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9604682810504325" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;prefalse&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4005870567512125" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="6951801152750324" type="bird_red">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6651519042491991" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;false&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6078495375045029">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="9237278100991862" type="bird_red">
+                            <param id="0" name="Object">paredinvisible</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6755184918154674" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueDown&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9029023702923975" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;trueDownChoque&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5522563568333544" type="bird_red">
+                            <param id="0" name="Animation">&quot;RunDownChoque&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7297247572207164">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4490397865351818" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueDownChoque&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="6363344480593786" type="bird_red">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">lastpostition</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="1898249494061695" type="bird_red">
+                            <param id="0" name="Y">Self.Y-4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2265231521426504">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7263270178466359" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueDownChoque&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="3674555505712639" type="bird_red">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Y co-ordinate">lastpostition</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="1450061504836952" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;prefalse&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5952729422645897" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5293355932212262" type="bird_red">
+                            <param id="0" name="Animation">&quot;Fallo&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4359002376225456" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;fallo&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5091670415945326" title="FlechaCurso1Up">
+            <sub-events>
+                <event-block sid="574107496779301">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="7681890299819979" type="Touch">
+                            <param id="0" name="Object">btn_up</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4350377307909269" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;false&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="1387954798057709" type="bird_red">
+                            <param id="0" name="Animation">&quot;RunUp&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4348808735721635" type="System">
+                            <param id="0" name="Variable">lastpostition</param>
+                            <param id="1" name="Value">bird_red.Y</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="680462311068928" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;trueUp&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7907746170559584">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="3948852534409485" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueUp&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="8081310007999466" type="bird_red">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">lastpostition-145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="2214353248621564" type="bird_red">
+                            <param id="0" name="Y">Self.Y-4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8304455899422448">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8464074106067767" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueUp&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="9746325198235965" type="bird_red">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Y co-ordinate">lastpostition-145</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9604682810504325" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;prefalse&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4005870567512125" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="6951801152750324" type="bird_red">
+                            <param id="0" name="Animation">&quot;Default&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6651519042491991" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;false&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6078495375045029">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="9237278100991862" type="bird_red">
+                            <param id="0" name="Object">paredinvisible</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="6755184918154674" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueUp&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9029023702923975" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;trueUpChoque&quot;</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5522563568333544" type="bird_red">
+                            <param id="0" name="Animation">&quot;trueUpChoque&quot;</param>
+                            <param id="1" name="From">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7297247572207164">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4490397865351818" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueUpChoque&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="6363344480593786" type="bird_red">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Y co-ordinate">lastpostition</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Set Y" sid="1898249494061695" type="bird_red">
+                            <param id="0" name="Y">Self.Y+4</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="2265231521426504">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="7263270178466359" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;trueUpChoque&quot;</param>
+                        </condition>
+                        <condition id="-2" name="Compare Y" sid="3674555505712639" type="bird_red">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Y co-ordinate">lastpostition</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="1450061504836952" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;prefalse&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="5952729422645897" type="System">
+                            <param id="0" name="Seconds">0.2</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="5293355932212262" type="bird_red">
+                            <param id="0" name="Animation">&quot;Fallo&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4359002376225456" type="System">
+                            <param id="0" name="Variable">estadoBird</param>
+                            <param id="1" name="Value">&quot;fallo&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

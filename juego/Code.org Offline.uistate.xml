@@ -13,6 +13,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout active="1">Curso1Etapa1</layout>
         <event-sheet>Event sheet Curso1Etapa1</event-sheet>
         <event-sheet>Event sheet Base</event-sheet>
+        <event-sheet>Event sheet Flechas Curso 1</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,6 +32,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Curso1/" />
         <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="event-folder/curso 1/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/popup_fondo/" />
@@ -46,8 +48,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/btn_derecha/" />
         <folder expanded="1" path="animation-folder/btn_down/" />
         <folder expanded="1" path="animation-folder/happy_maps_1q/" />
-        <folder expanded="1" path="animation-folder/final_Angry_Bird_red/" />
-        <folder expanded="1" path="animation-folder/final_pigg/" />
+        <folder expanded="1" path="animation-folder/bird_red/" />
+        <folder expanded="1" path="animation-folder/pig/" />
+        <folder expanded="1" path="animation-folder/paredinvisible/" />
         <folder expanded="1" path="animation-folder/cursoselementaklesHome/" />
         <folder expanded="1" path="animation-folder/etapa/" />
     </folders-expanded>
