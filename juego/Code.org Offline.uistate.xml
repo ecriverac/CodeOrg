@@ -10,8 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>Curso1Etapa1</layout>
-        <event-sheet active="1">Event sheet Curso1Etapa1</event-sheet>
+        <layout active="1">Curso1Etapa1</layout>
+        <event-sheet>Event sheet Curso1Etapa1</event-sheet>
         <event-sheet>Event sheet Base</event-sheet>
         <event-sheet>Event sheet Flechas Curso 1</event-sheet>
     </open-tabs>
@@ -24,13 +24,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/base/" />
-        <folder expanded="1" path="object-folder/base/popup/" />
-        <folder expanded="1" path="object-folder/home/" />
+        <folder expanded="0" path="object-folder/base/" />
+        <folder expanded="0" path="object-folder/base/popup/" />
+        <folder expanded="0" path="object-folder/home/" />
         <folder expanded="1" path="object-folder/cursoselementales/" />
         <folder expanded="1" path="object-folder/cursoselementales/curso1home/" />
         <folder expanded="1" path="layout-folder/" />
-        <folder expanded="0" path="layout-folder/Curso1/" />
+        <folder expanded="1" path="layout-folder/Curso1/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="1" path="event-folder/curso 1/" />
         <folder expanded="0" path="file-folder/" />

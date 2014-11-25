@@ -47,7 +47,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="8319041655550594" type="popup_titulo">
+                        <action id="0" name="Set text" sid="8319041655550594" type="popup_text">
                             <param id="0" name="Text">&quot;PROXIMAMENTE....&quot;</param>
                         </action>
                         <action id="-12" name="Set group active" sid="2423683336109228" type="System">
@@ -65,7 +65,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="6147939727712925" type="popup_titulo">
+                        <action id="0" name="Set text" sid="6147939727712925" type="popup_text">
                             <param id="0" name="Text">&quot;PROXIMAMENTE....&quot;</param>
                         </action>
                         <action id="-12" name="Set group active" sid="5228593309933926" type="System">
