@@ -62,7 +62,7 @@
                     </behaviors>
                     <texture />
                 </object-type>
-                <object-type name="popup_text" sid="687877677345018">
+                <object-type name="popup_titulo" sid="687877677345018">
                     <plugin id="Text" />
                 </object-type>
                 <object-type name="popup_fondo" sid="1278378968547725">
@@ -102,6 +102,9 @@
                             </frame>
                         </animation>
                     </animation-folder>
+                </object-type>
+                <object-type name="popup_descripcion" sid="6226760703721161">
+                    <plugin id="Text" />
                 </object-type>
             </object-folder>
             <object-type name="base_fondo" sid="5394160486200555">
@@ -391,64 +394,78 @@
                         <animation framecount="9" loop="0" name="RunDown" pingpong="0" repeatcount="1" repeatto="0" sid="7861605434808414" speed="10">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
                                     <point x="1" y="0.955" />
                                     <point x="0" y="0.955" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
-                                    <point x="1" y="0.885" />
-                                    <point x="0" y="0.885" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.895" />
+                                    <point x="0" y="0.895" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
-                                    <point x="1" y="0.72" />
-                                    <point x="0" y="0.72" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.715" />
+                                    <point x="0" y="0.715" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
-                                    <point x="1" y="0.64" />
-                                    <point x="0" y="0.64" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.635" />
+                                    <point x="0" y="0.635" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
-                                    <point x="1" y="0.645" />
-                                    <point x="0" y="0.645" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.655" />
+                                    <point x="0" y="0.655" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
                                     <point x="1" y="0.74" />
                                     <point x="0" y="0.74" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                                 <collision-poly>
-                                    <point x="0" y="0" />
-                                    <point x="1" y="0" />
-                                    <point x="1" y="0.86" />
-                                    <point x="0" y="0.86" />
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.865" />
+                                    <point x="0" y="0.865" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\personajes\angry\finales\idle defrente\s01.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.955" />
+                                    <point x="0" y="0.955" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\personajes\angry\finales\idle defrente\s01.png">
+                                <collision-poly>
+                                    <point x="0" y="0.435" />
+                                    <point x="1" y="0.435" />
+                                    <point x="1" y="0.955" />
+                                    <point x="0" y="0.955" />
+                                </collision-poly>
+                            </frame>
                         </animation>
-                        <animation framecount="9" loop="0" name="RunDownChoque" pingpong="0" repeatcount="1" repeatto="0" sid="8148802591570426" speed="10">
+                        <animation framecount="9" loop="0" name="RunDownChoque2" pingpong="0" repeatcount="1" repeatto="0" sid="8148802591570426" speed="10">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5">
@@ -615,7 +632,88 @@
                             </frame>
                         </animation>
                         <animation framecount="1" loop="0" name="Fallo" pingpong="0" repeatcount="1" repeatto="0" sid="1309949491291514" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\personajes\angry\finales\fallo\failure_avatar.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\personajes\angry\finales\fallo\failure_avatar.png">
+                                <collision-poly>
+                                    <point x="0" y="0.395" />
+                                    <point x="1" y="0.395" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="9" loop="0" name="RunRight" pingpong="0" repeatcount="1" repeatto="0" sid="3861342721659822" speed="14">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0" y="0.45" />
+                                    <point x="1" y="0.45" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -625,14 +723,10 @@
                         <animation framecount="26" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6438067857869895" speed="3">
                             <frame duration="1" hotspotX="0.504" hotspotY="0.503817" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\personajes\PING\goal.png">
                                 <collision-poly>
-                                    <point x="0.131313" y="0.132653" />
-                                    <point x="0.494949" y="0.0408163" />
-                                    <point x="0.777778" y="0.22449" />
-                                    <point x="0.979798" y="0.5" />
-                                    <point x="0.868687" y="0.867347" />
-                                    <point x="0.494949" y="0.989796" />
-                                    <point x="0.131313" y="0.867347" />
-                                    <point x="0.020202" y="0.5" />
+                                    <point x="0.104" y="0.244275" />
+                                    <point x="0.792" y="0.251908" />
+                                    <point x="0.792" y="0.809161" />
+                                    <point x="0.104" y="0.816794" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.503817" original-source="C:\Users\RAUL\Documents\work2014\codeorg\fuentes\personajes\PING\idle_defrente\s01.png" />
